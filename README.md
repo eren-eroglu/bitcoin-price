@@ -1,2 +1,2 @@
-# bitcoin-price-and-News!
-a basic website that shows bitcoin price using API
+# bitcoin-Price-and-News!
+A Website that shows bitcoin price and latest news!
