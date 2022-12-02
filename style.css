@@ -1,16 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
 body {
-  background: #f7971e; /* fallback for old browsers */
+  /* Created with https://www.css-gradient.com */
+  background: #12c2e9; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    #ffd200,
-    #f7971e
+    #f64f59,
+    #c471ed,
+    #12c2e9
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
-    #ffd200,
-    #f7971e
+    #f64f59,
+    #c471ed,
+    #12c2e9
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
@@ -41,4 +45,41 @@ body {
     #ff2d95 0px 0px 50px, #ff2d95 0px 0px 75px;
   color: #ffffff;
   font-family: "Zen Dots", cursive;
+  border-radius: 25px;
+  -webkit-box-shadow: 33px -16px 46px 0px rgba(107, 13, 107, 1);
+  -moz-box-shadow: 33px -16px 46px 0px rgba(107, 13, 107, 1);
+  box-shadow: 33px -16px 46px 0px rgba(107, 13, 107, 1);
+}
+
+.panel {
+  background: rgba(255, 255, 255, 0);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(8.5px);
+  -webkit-backdrop-filter: blur(8.5px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 2%;
+}
+
+.news {
+  display: flex;
+  -ms-flex: 1; /* IE 10 */
+  flex: 1;
+}
+
+.news-title {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 1px;
+  color: #131313;
+
+  letter-spacing: 0.15em;
+  color: #ffffff;
+
+  text-shadow: 0 -1px 4px #fff, 0 -2px 10px rgb(216, 23, 168),
+    0 -10px 20px #901fc5, 0 -18px 40px #f00;
+  color: #ffffff;
+}
+
+.names {
+  pointer-events: none;
 }
