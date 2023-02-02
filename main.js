@@ -26,6 +26,8 @@ function showPrice(res) {
     const str = res.bpi.USD.rate;
     const withoutLast3 = str.slice(0, -5);
     price[0].innerHTML = withoutLast3;
+    const news = document.querySelector('.loading-news');
+    news.textContent = 'Hot News 🥵'
   }, 1000);
 }
 
